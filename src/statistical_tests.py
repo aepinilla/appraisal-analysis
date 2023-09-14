@@ -38,7 +38,7 @@ def statistical_tests():
                                    levene_dimension['Stressing'])
         levene_results[dim] = round(levene_test[1], 3)
 
-    # Variances are equal between groups
+    # Variances are equal between scenes in ratings in both dimensions (valence and arousal)
     print("P-values obtained with Levene's test:", levene_results)
 
     # MANOVA
